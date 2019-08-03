@@ -15,6 +15,7 @@ export class ModalComponent implements OnInit, AfterViewInit {
   toggleClass() {
 
     this.modal.nativeElement.classList.toggle('show');
+    console.log(this.modal.nativeElement.classList);
 
   }
 
